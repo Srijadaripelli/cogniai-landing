@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { height: 100%; background:#060508; color:#F2F1F3; }
+.section { @apply py-20 md:py-28; }
+.container { @apply max-w-6xl mx-auto px-6 md:px-8; }
+.h1 { @apply text-4xl md:text-6xl font-semibold tracking-tight; }
+.h2 { @apply text-3xl md:text-4xl font-semibold tracking-tight; }
+.lead { @apply text-surface-300 md:text-lg; }
+.card { @apply bg-[#0B0A0E] border border-surface-400/10 rounded-2xl shadow-smooth; }
+summary::-webkit-details-marker { display:none; }
+details > summary { list-style:none; }
